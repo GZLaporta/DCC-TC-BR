@@ -1,0 +1,31 @@
+alguns arquivos sobre modelagem estão aqui. 
+baseTDCApop.dbf possui todas as variáveis e covariáveis do estudo, a saber:
+CD_MUN: código do município - IBGE
+NM_MUN: nome do município - IBGE
+SIGLA: estado
+AREA_KM2: área do município em km_2 - IBGE
+BR_DCC_cod: código de saúde do município - SUS
+SIAB: Taxa de cadastros autorreferidos para doença de Chagas no Siab - SIAB
+MortJ: Taxa de mortalidade por DC na faixa etária até 49 anos - SIM
+MortV: Taxa de mortalidade por DC na faixa etária a partir de 50 anos - SIM 
+IntDC: Taxa de internações com CID-10 B57 - SIH
+IntIC: Taxa de internação por Insuficiência Cardíaca - SIH
+MortS: Taxa de mortalidade por CID-10 sentinelas para forma crônica cardíaca - SIM
+CobAB: Cobertura populacional estimada pelas equipes de Atenção Básica - SISAB
+Proc: Razão de procedimentos de média complexidade relacionados à DC e população residente - SIH
+ProcV: Razão de procedimentos de média complexidade relacionados à DC e população residente na faixa etária a partir de 50 anos
+AIHICDC: Proporção de internações por insuficiência cardíaca com realização de sorologia IgG para T. cruzi
+Chagas: subíndice Chagas
+Sentinela: subíndice Sentinela
+Acesso: subíndice Acesso
+Índice: Índice de vulnerabilidade da DCC
+PrevT: prevalência DCC na população geral
+PrevM: prevalência DCC em mulheres
+PrevMFe: prevalência DCC em mulheres na idade fértil
+PrevMGr: prevalência ou casos divididos por municípios de DCC em mulheres grávidas
+transVC: taxa de transmissão vertical ou casos de transmissão vertical ou casos de transmissão vertical divididos por municípios
+X: longitude do centroide do município
+Y: latitude do centroide do município
+IncDCA: incidência de DCA
+Pop: população residente média
+TcDCA: casos de transmissão vertical por DCA
