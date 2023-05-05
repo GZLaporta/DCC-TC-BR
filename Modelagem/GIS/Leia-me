@@ -1,2 +1,16 @@
 A base principal (baseMS) por ser acessada via link: https://1drv.ms/f/s!AmGpuPqJXm2IhqZc1HRY8uARKkUndg?e=4ZQ11Q 
 Faça o download de todos os arquivos e depois abra o arquivo .shp em Sistema de Informação Geográfico (ArcGIS, QGIS, etc ...)
+
+Explicação sobre o nome das colunas (no arquivo dbf):
+PrevMGr: prevalência ou casos divididos por municípios de DCC em mulheres grávidas
+transVC: taxa de transmissão vertical ou casos de transmissão vertical ou casos de transmissão vertical divididos por municípios
+Pop: população residente média
+IncDCA: incidência de DCA
+TcDCA: casos de transmissão vertical por DCA
+m_cons_fit: média de estimativa de 5 modelos selecionados por AICc equivalente
+IC_inf: limite inferior do intervalo de confiança (m_cons_fit - 1.96*DP de m_cons_fit)
+IC_sup: limite superior do intervalo de confiança (m_cons_fit + 1.96*DP de m_cons_fit)
+PrevEst: estimativa de prevalência de DCC na população geral segundo o modelo de consenso (reclassificação de m_cons_fit para conter somente valores de IC95% de 0 até 1)
+PopDCC: número de pessoas com DCC (multiplicação de PrevEst por Pop)
+MDCC: número de mulheres com DCC (multiplicação de PopDCC por razão média de prevalência em mulheres=0,56)
+MFeDCC: número de mulheres em idade fértil com DCC (multiplicação de PopDCC por razão média de prevalência em mulheres em idade fértil=0,16)
