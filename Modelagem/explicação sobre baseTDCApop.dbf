@@ -26,6 +26,6 @@ PrevMGr: prevalência ou casos divididos por municípios de DCC em mulheres grá
 transVC: taxa de transmissão vertical ou casos de transmissão vertical ou casos de transmissão vertical divididos por municípios
 X: longitude do centroide do município
 Y: latitude do centroide do município
-IncDCA: Tx de conversão de DCA em DCC ([n_casos_DCA/Pop*100]*[tx_trans_vert_DCA/tx_trans_vert_DCC=0.108875])
+IncDCA: Tx de conversão de DCA em DCC ([n_casos_DCA/Pop*100]*[trans_vert_DCA/trans_vert_DCC=0.108875])
 PopM: população residente média (média[Censo 2010+Censo 2022])
 Casos: casos de transmissão vertical por DCA
