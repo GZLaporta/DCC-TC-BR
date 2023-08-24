@@ -4,13 +4,12 @@ Faça o download de todos os arquivos e depois abra o arquivo .shp em Sistema de
 Explicação sobre o nome das colunas (no arquivo dbf):
 PrevMGr: prevalência ou casos divididos por municípios de DCC em mulheres grávidas
 transVC: taxa de transmissão vertical ou casos de transmissão vertical ou casos de transmissão vertical divididos por municípios
-Pop: população residente média
-IncDCA: incidência de DCA
-TcDCA: casos de transmissão vertical por DCA
-m_cons_fit: média de estimativa de 5 modelos selecionados por AICc equivalente
+Pop: população residente média (média[Censo 2010+Censo 2022])
+IncDCA: Tx de conversão de DCA em DCC ([n_casos_DCA/Pop*100]*[tx_trans_vert_DCA/tx_trans_vert_DCC=0.108875])
+m_cons_fit: média de estimativa de 5 modelos selecionados por AICc (uso do valor de IncDCA em 193 municípios)
 IC_inf: limite inferior do intervalo de confiança (m_cons_fit - 1.96*DP de m_cons_fit)
 IC_sup: limite superior do intervalo de confiança (m_cons_fit + 1.96*DP de m_cons_fit)
-PrevEst: estimativa de prevalência de DCC na população geral segundo o modelo de consenso (reclassificação de m_cons_fit para conter somente valores de IC95% de 0 até 1)
+PrevEst: estimativa de prevalência de DCC na população geral segundo o modelo de consenso (reclassificação de m_cons_fit para conter somente valores de IC95% de 0 até 1) em 5377 municípios e IncDCA em 193 municípios
 PopDCC: número de pessoas com DCC (multiplicação de PrevEst por Pop)
-MDCC: número de mulheres com DCC (multiplicação de PopDCC por razão média de prevalência em mulheres=0,56)
-MFeDCC: número de mulheres em idade fértil com DCC (multiplicação de PopDCC por razão média de prevalência em mulheres em idade fértil=0,16)
+MDCC: número de mulheres com DCC (multiplicação de PopDCC por razão média de prevalência em mulheres=0.5572)
+MFeDCC: número de mulheres em idade fértil com DCC (multiplicação de PopDCC por razão média de prevalência em mulheres em idade fértil=0.1596)
