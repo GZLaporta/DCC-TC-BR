@@ -5,7 +5,7 @@ Explicação sobre o nome das colunas (no arquivo dbf):
 PrevMGr: prevalência ou casos divididos por municípios de DCC em mulheres grávidas
 transVC: taxa de transmissão vertical ou casos de transmissão vertical ou casos de transmissão vertical divididos por municípios
 Pop: população residente média (média[Censo 2010+Censo 2022])
-IncDCA: Tx de conversão de DCA em DCC ([n_casos_DCA/Pop*100]*[tx_trans_vert_DCA/tx_trans_vert_DCC=0.108875])
+IncDCA: Tx de conversão de DCA em DCC ([n_casos_DCA/Pop*100]*[trans_vert_DCA/trans_vert_DCC=0.108875])
 m_cons_fit: média de estimativa de 5 modelos selecionados por AICc (uso do valor de IncDCA em 193 municípios)
 IC_inf: limite inferior do intervalo de confiança (m_cons_fit - 1.96*DP de m_cons_fit)
 IC_sup: limite superior do intervalo de confiança (m_cons_fit + 1.96*DP de m_cons_fit)
