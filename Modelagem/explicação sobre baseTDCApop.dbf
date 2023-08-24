@@ -27,5 +27,5 @@ transVC: taxa de transmissão vertical ou casos de transmissão vertical ou caso
 X: longitude do centroide do município
 Y: latitude do centroide do município
 IncDCA: incidência de DCA
-Pop: população residente média
-TcDCA: casos de transmissão vertical por DCA
+Pop: população residente média (média[Censo 2010+Censo 2022])
+Casos: casos de transmissão vertical por DCA
